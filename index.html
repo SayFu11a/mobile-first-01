@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Испытание: котогалерея на inline-block</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="/css/style.css" />
+   </head>
+   <body>
+      
+
+      <header class="header">
+         
+         </div>
+         <div class="header__wrapper">
+            
+            <div class="header__menu-burger">
+               <a href="#" class="header__link-burger">
+                  <span class="burger__icon icon"
+                     ><img id="image" src="./images/01.svg" class="burger__img"  onClick="imgsrc();"/></span
+               ></a>
+            </div>
+            <div class="header__logo">
+               <a>
+                  <span class=""><img src="./images/logo.svg" class="img" /></span
+               ></a>
+            </div>
+            <div class="popup-menu">
+               <div class="popup-menu-wraper popup-menu__regular">
+                  <a>
+                  <span class="icon l-icon">
+                     <img src="./images/05.svg" class="img" />
+                     </span
+                     >
+                  </a>
+                  <a>
+                     <span class="icon l-icon">
+                        <img src="./images/04.svg" class="img" />
+                        </span
+                        >
+                     </a>
+                     <a>
+                        <span class="icon l-icon">
+                           <img src="./images/08.svg" class="img" />
+                           </span
+                           >
+                        </a>
+                     </div>
+               </div>
+            <div class="header__menu_left ">
+               <div class="header__seatings">
+                  <a>
+                  <span class="icon icon-mb">
+                     <img src="./images/02.svg" class="img" />
+                     </span
+                     >
+                  </a>
+               </div>
+               <div class="header__search ">
+                  <span class="icon icon-mb">
+                     <img src="./images/03.svg" class="img" />
+                     </span
+               ></a>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="wrapper">
+            <div class="title__wrapper">
+               <h1 class="title">
+                  Услуги и сервисы
+               </h1>
+               <div class="header__menu_left display-none ">
+                  <div class="header__seatings title__item">
+                     <a class=" head-link title__item-text">
+                        <span >
+                           Оставить заявку
+                        </span>
+                        <span class="icon icon-mb">
+                       
+                        <img src="./images/02.svg" class="img" />
+                        </span
+                        >
+                     </a>
+                  </div>
+                  <div class="header__search title__item">
+                     <span class="title__item-text">
+                     Статус ремонта
+                  </span>
+                     <span class="icon icon-mb">
+                        <img src="./images/03.svg" class="img" />
+                        </span
+                  ></a>
+                  </div>
+               </div>
+            </div>
+           
+            <div class="services-tabs">
+               <button class="services-tabs__item services-tabs__item_active">Ремонтируемые устройства</button>
+               <button class="services-tabs__item">Дополнительные услуги</button>
+               <button class="services-tabs__item">Цены на услуги</button>
+               <button class="services-tabs__item">Специальные предложения</button>
+            </div>
+         <div class="body__wrapper">
+            <div class="text-botn">
+               <div class="main-text">
+                  <p>
+                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                  </p>
+                  <br>
+                  <p class="none">
+                     Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+                  </p>
+                  <p class="none-2">
+                     Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                  </p>
+               </div>
+               <button class="read-more">
+                  <img src="./images/arrows.svg" alt="" class="read-more__img">
+                  <span class="read-more__text">Читать далее</span>
+               </button>
+            </div>
+          
+            <div class="image">
+               <img src="./images/image.jpg" alt="" class="image__img">
+            </div>
+         </div>
+          
+         </div>
+      </main>
+
+
+
+      <script>
+         document.querySelector('.header__link-burger').addEventListener('click', function() {
+             this.classList.toggle('burger-active');
+             document.querySelector('.popup-menu').classList.toggle('open');
+             
+         })
+     </script>
+   </body>
+</html>
