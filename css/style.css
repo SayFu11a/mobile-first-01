@@ -471,3 +471,15 @@ h1::before{
   max-width: 1763px;
   margin: 0 auto;
 }
+
+
+
+@media (min-width: 1978px) {
+  .title__wrapper {
+    max-width: 1863px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
